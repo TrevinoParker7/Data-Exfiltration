@@ -79,3 +79,29 @@ An employee named John Doe, working in a sensitive department, was recently plac
 3. Escalate findings to management and recommend a follow-up review of John's device for additional forensic artifacts.  
 
 ---
+
+## Steps to Reproduce:
+1. Provision a virtual machine with a public IP address
+2. Ensure the device is actively communicating or available on the internet. (Test ping, etc.)
+3. Onboard the device to Microsoft Defender for Endpoint
+4. Verify the relevant logs (e.g., network traffic logs, exposure alerts) are being collected in MDE.
+5. Execute the KQL query in the MDE advanced hunting to confirm detection.
+
+---
+
+## Created By:
+- **Author Name**: Trevino Parker
+- **Author Contact**: https://www.linkedin.com/in/trevinoparker/
+- **Date**: Jan 5, 2025
+
+## Validated By:
+- **Reviewer Name**: Josh Madakor
+- **Reviewer Contact**: https://www.linkedin.com/in/joshmadakor/
+- **Validation Date**: Jan , 2025
+
+---
+
+## Revision History:
+| **Version** | **Changes**                   | **Date**         | **Modified By**   |
+|-------------|-------------------------------|------------------|-------------------|
+| 1.0         | Initial draft                  | `Jan 5, 2025`  | `Trevino Parker`   
