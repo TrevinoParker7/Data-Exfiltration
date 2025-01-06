@@ -58,7 +58,9 @@ An employee named John Doe, working in a sensitive department, was recently plac
      ```  
 
 4. **📝 Response:**  
-   - Shared findings with the manager, highlighting automated archive creation and no immediate signs of exfiltration. Awaiting further instructions.
+   - Shared findings with the manager, highlighting automated archive creation and no immediate signs of exfiltration. The device was isolated, awaiting further instructions.
+
+---
 
 ---
 
