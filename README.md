@@ -1,7 +1,6 @@
 
+---![image (3)](https://github.com/user-attachments/assets/7e93bed4-6b56-4daa-9dea-7ad6f8306919)
 
-
----
 
 # 🎯 **Use Case**  
 **Data Exfiltration from PIP'd Employee**  
