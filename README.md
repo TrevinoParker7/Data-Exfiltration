@@ -16,7 +16,18 @@ An employee named John Doe, working in a sensitive department, was recently plac
 1. **🔍 Archiving Activity:**  
    - **Observed Behavior:** Frequent creation of `.zip` files in a folder labeled "backup."  
    - **Detection Query (KQL):**  
-
+     ```kql
+     DeviceFileEvents
+     | top 20 by Timestamp desc
+     ```
+     ```kql
+     DeviceNetworkEvents
+     | top 20 by Timestamp desc
+     ```
+     ```kql
+     DeviceProcessEvents
+     | top 20 by Timestamp desc
+     ```
      ```kql
      DeviceFileEvents
      | where DeviceName == "windows-target-1"
