@@ -38,7 +38,7 @@ An employee named John Doe, working in a sensitive department, was recently plac
 
      
 2. **⚙️ Process Analysis:**  
-   - **Observed Behavior:** Around the same time as the archive creation, a PowerShell script silently installed 7-Zip, used it to compress employee data into `.zip` files.  
+   - **Observed Behavior:** I took one of the instances of a zip file being created, took the timestamp and searched under DeviceProcessEvents for anything happening 2 minutes before the archive was created and 2 mintutes after. I discoverd around the same time. apowershellscript silently installed 7zip and then used 7zip to zip up employee data into an archive.
    - **Detection Query (KQL):**  
 
      ```kql
