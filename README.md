@@ -1,9 +1,8 @@
+## **Data Exfiltration from PIP'd Employee** 
+![image (3)](https://github.com/user-attachments/assets/7e93bed4-6b56-4daa-9dea-7ad6f8306919)
 
----![image (3)](https://github.com/user-attachments/assets/7e93bed4-6b56-4daa-9dea-7ad6f8306919)
 
-
-# 🎯 **Use Case**  
-**Data Exfiltration from PIP'd Employee**  
+# 🎯 **Use Case**   
 
 ## 📚 **Scenario:**  
 An employee named John Doe, working in a sensitive department, was recently placed on a performance improvement plan (PIP). After displaying concerning behavior, management suspects John may be planning to steal proprietary information and leave the company. The investigation involves analyzing activities on John’s corporate device (`windows-target-1`) using Microsoft Defender for Endpoint (MDE).  
